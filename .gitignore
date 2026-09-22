@@ -1,0 +1,29 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# Spark/Scala build/runtime
+target/
+project/target/
+.metals/
+.bloop/
+.sparkStaging/
+spark-warehouse/
+derby.log
+metastore_db/
+*.log
+
+# Python
+__pycache__/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
